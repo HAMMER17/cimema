@@ -1,0 +1,15 @@
+.game-cover {
+  width: 200px;
+  height: 250px;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+.game-cover:hover {
+  box-shadow: 0 0 15px red;
+  transition: 0.5s;
+  transform: translateY(-20px);
+}

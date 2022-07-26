@@ -1,0 +1,33 @@
+.btn2 {
+  margin-left: 200px;
+  max-width: 90px;
+}
+
+.btn {
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: none;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px white;
+}
+
+.btn-primary {
+  background: blue;
+}
+
+.btn-secondary {
+  background: green;
+}
+
+.btn-small {
+  font-size: 10px;
+}
+
+.btn-medium {
+  font-size: 20px;
+}

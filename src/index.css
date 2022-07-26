@@ -1,0 +1,11 @@
+body {
+  background: url('../public/images/afisha.png');
+}
+
+.app {
+  max-width: 1200px;
+  color: white;
+  margin: 0 auto;
+  padding: 0 30px;
+  /* border: 1px solid white; */
+}
