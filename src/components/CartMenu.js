@@ -28,7 +28,7 @@ function CartMenu({ items }) {
         <div className='cart-menu_tottal-price'>
           {tottalPrice(items)} руб.
         </div> : null}
-      <button onClick={payOrder} className='class'>key</button>
+      <button onClick={payOrder} className='class'>оформить</button>
     </div>
   )
 }

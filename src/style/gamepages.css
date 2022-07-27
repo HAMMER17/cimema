@@ -1,8 +1,12 @@
 .p {
-
+  position: absolute;
+  top: 250px;
+  left: 1150px;
   margin: 10px;
   padding: 10px;
   color: red;
+  width: 200px;
+
 }
 
 h1 {
@@ -14,5 +18,11 @@ h1 {
   top: 200px;
   left: 800px;
   box-shadow: 0 0 20px white;
+  transition: 1s;
+}
 
+.img:hover {
+  box-shadow: 0 0 50px white;
+  transform: translateX(10px);
+  transition: 1s;
 }

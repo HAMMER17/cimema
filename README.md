@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/7e0619179a8887b3fedf/maintainability)](https://codeclimate.com/github/HAMMER17/cimema/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7e0619179a8887b3fedf/test_coverage)](https://codeclimate.com/github/HAMMER17/cimema/test_coverage)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
