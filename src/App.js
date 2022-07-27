@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HomePages from "./pages/HomePages";
 import { store } from "./redax";
 import GamePages from "./pages/GamePages";
+import Order from "./pages/Order";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path={'/'} element={<HomePages />} />
             <Route path={'/app/:title'} element={<GamePages />} />
+            <Route path={'/order'} element={<Order />} />
           </Routes>
 
         </div>

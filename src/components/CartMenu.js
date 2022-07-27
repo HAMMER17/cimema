@@ -1,10 +1,20 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
 import { tottalPrice } from '../redax/totalprice'
-import Button from './Button'
+import { orderPay } from '../redax/cart/redusr3'
+// import Button from './Button'
 import '../style/cartmenu.css'
 
 
-function CartMenu({ items, onClick }) {
+function CartMenu({ items }) {
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+
+  const payOrder = () => {
+    dispatch(orderPay(items))
+    navigate('/order/')
+  }
   return (
     <div className='cart-menu'>
       <div className='cart-menu_cart-list'>
@@ -18,7 +28,7 @@ function CartMenu({ items, onClick }) {
         <div className='cart-menu_tottal-price'>
           {tottalPrice(items)} руб.
         </div> : null}
-      <Button type={'primary'} size='m' onClick={onClick}>купить</Button>
+      <button onClick={payOrder} className='class'>key</button>
     </div>
   )
 }

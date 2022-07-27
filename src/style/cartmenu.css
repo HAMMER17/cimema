@@ -2,7 +2,7 @@
   position: absolute;
   top: 40px;
   left: -100px;
-  width: 300px;
+  width: 250px;
   z-index: 2;
   box-shadow: 0 0 15px white;
   margin: 10px;
@@ -16,4 +16,21 @@
 
 .cart-menu_tottal-price {
   margin-left: 10px;
+}
+
+.class {
+  margin-left: 70px;
+  background: blue;
+  color: white;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px;
+  border: none;
+}
+
+.class:hover {
+  background: green;
+  box-shadow: 0 0 25px gainsboro;
+  color: black;
 }
